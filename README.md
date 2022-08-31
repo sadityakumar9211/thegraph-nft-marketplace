@@ -26,28 +26,27 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/sadityakumar9211/medichain-thegraph">
+  <a href="https://github.com/sadityakumar9211/thegraph-nft-marketplace">
     <img src="logo.svg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">MediChain: Decentralized Medical Record Keeping System</h3>
+  <h2 align="center">NFT Marketplace</h2>
 
   <p align="center">
-    This repository is one of the three repositories which are part of MediChain Project.
+    This repository is one of the three repositories which are part of NFT Marketplace Project.
     <br />
-    <a href="https://ipfs.infura.io/QmZtqbqPkm74j43Lhwd93fvDXCDCdYB8y8Gnaayc1f9LWG"><strong>Explore the Final Project Report »</strong></a> 
     <br>
-    <a href="https://github.com/sadityakumar9211/medichain-hardhat"><strong> <i>medichain-hardhat</i>: Hardhat Repository of MediChain Project»</strong></a>
+    <a href="https://github.com/sadityakumar9211/hardhat-nft-marketplace"><strong> <i>hardhat-nft-marketplace</i>: Hardhat Repository of NFT Marketplace Project»</strong></a>
     <br>
-    <a href="https://github.com/sadityakumar9211/medichain-thenextjs"><strong> <i>medichain-nextjs</i>: The Next.js Repository of MediChain Project»</strong></a>
+    <a href="https://github.com/sadityakumar9211/medichain-thenextjs"><strong> <i>nextjs-nft-marketplace</i>: The Next.js Repository of NFT Marketplace Project»</strong></a>
     <br>
     <br />
     <br />
-    <a href="https://medichain.vercel.app">View Demo</a>
+    <a href="https://nftmarketplace-thegraph.vercel.app/">View Demo</a>
     ·
-    <a href="https://github.com/sadityakumar9211/medichain-thegraph/issues">Report Bug</a>
+    <a href="https://github.com/sadityakumar9211/thegraph-nft-marketplace/issues">Report Bug</a>
     ·
-    <a href="https://github.com/sadityakumar9211/medichain-thegraph/issues">Request Feature</a>
+    <a href="https://github.com/sadityakumar9211/thegraph-nft-marketplace/issues">Request Feature</a>
   </p>
 </div>
 
@@ -85,13 +84,9 @@
 
 <img width="1278" alt="image" src="https://user-images.githubusercontent.com/78147198/184471278-42e393d0-db94-4577-bdc9-328510b777c0.png">
 
-**Blockchain** being an immutable ledger and with decentralized nature has a great potential for increasing the security, privacy and efficiency of Medical Health Record keeping systems. Currently existing solutions rely on centralised database which are susceptible to *Ransomware attacks, Denial of Service(DoS) attacks and also have significant counterparty risks*. Some decentralized solutions are also exist but some of them are not really decentralized that are based on private or permis- sioned blockchain, while some which are based on public blockchain have not properly addressed the performance and scalability issues. 
+**Blockchain** developed the idea of NFTs and introduced digital ownership of certain assets. This is because tokens are not exchangeable which makes it possible to establish property ownership in digital art. 
 
-The proposed system is based on EVM compatible public blockchains using IPFS as a decentralized file storage solution and uses 2048 bit RSA encryption to encrypt the IPFS HASH of file metadata on the client-side before uploading the HASH on the blockchain. For supporting fast and complex queries this system uses a decentralized indexing protocol *The Graph*. The smart contract is currently deployed on *Rinkeby Testnet*.
-
-With this system patients can access their medical records anytime anywhere without the counterparty risk from centralized entity. This system also features QR code for sharing of medical files from patients to doctors. With the proposed implementation the decentralized medical record keeping system provides increased security and privacy compared to centralized systems without loss of significant performance or scalability benefits.
-
-### Read the detailed description of the project [here](https://ipfs.infura.io/QmZtqbqPkm74j43Lhwd93fvDXCDCdYB8y8Gnaayc1f9LWG)
+NFT marketplace is a digital platform to create and trade digital assets. There are several marketplaces to create, sell, buy and trade NFTs. This is one small implementation of such platforms. The platform can allow you to buy and sell NFTs. You can also withdraw funds which you earned after selling the NFTs. For supporting fast and complex queries this system uses a decentralized indexing protocol *The Graph*. The smart contract is currently deployed on *Rinkeby Testnet*.
 
 ### The links to other repositories of this project is at the top.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -99,7 +94,7 @@ With this system patients can access their medical records anytime anywhere with
 
 ### Built With
 
-This repository contains the code for developing a subgraph which indexes the smart-contract deployed in the [medichain-hardhat](https://github.com/sadityakumar9211/medichain-hardhat) repository.
+This repository contains the code for developing a subgraph which indexes the smart-contract deployed in the [hardhat-nft-marketplace](https://github.com/sadityakumar9211/hardhat-nft-marketplace) repository.
 - [![The Graph][The Graph]][Graph-url]
 
 
@@ -123,7 +118,7 @@ This repository contains the code for developing a subgraph which indexes the sm
     - `yarn --version` and get an output like: `x.x.x`
     - You might need to install it with `npm`
 - Optional Instruction
-  - Make sure that this repository and `medichain-hardhat` repository are in the same level in your directory structure.
+  - Make sure that this repository and `hardhat-nft-marketplace` repository are in the same level in your directory structure.
   - This makes sure that whenever you deploy the smart contract, this repository's `constants` files are updated.
 ## Quickstart
 
@@ -168,7 +163,7 @@ graph codegen && graph build
 Replace `VERSION_NUMBER_HERE` with a version number like `v0.0.1`. 
 
 ```
-graph deploy --studio medichain -l VERSION_NUMBER_HERE
+graph deploy --studio nft-marketplace -l VERSION_NUMBER_HERE
 ```
 
 8. Update the temporary query URI in the Next.js project
@@ -185,7 +180,7 @@ yarn dev
 
 If you can't or don't want to run and install locally, you can work with this repo in Gitpod. If you do this, you can skip the `clone this repo` part.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/sadityakumar9211/medichain-thegraph)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/sadityakumar9211/thegraph-nft-marketplace)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -231,7 +226,7 @@ ETH Address: 0xED5A704De64Ff9699dB62d09248C8d179bb77D8A
 [![Aditya Singh Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@sadityakumar9211)
 [![Aditya Singh Gmail](https://img.shields.io/badge/Gmail-gray?style=for-the-badge&logo=gmail)](mailto:sadityakumar9211@gmail.com)
 
-Project Link: [https://github.com/sadityakumar9211/medichain-hardhat](https://github.com/sadityakumar9211/medichain-hardhat)
+Project Link: [https://github.com/sadityakumar9211/hardhat-nft-marketplace](https://github.com/sadityakumar9211/hardhat-nft-marketplace)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,16 +240,16 @@ Project Link: [https://github.com/sadityakumar9211/medichain-hardhat](https://gi
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/sadityakumar9211/medichain-thegraph.svg?style=for-the-badge
-[contributors-url]: https://github.com/sadityakumar9211/medichain-thegraph/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/sadityakumar9211/medichain-thegraph.svg?style=for-the-badge
-[forks-url]: https://github.com/sadityakumar9211/medichain-thegraph/network/members
-[stars-shield]: https://img.shields.io/github/stars/sadityakumar9211/medichain-thegraph.svg?style=for-the-badge
-[stars-url]: https://github.com/sadityakumar9211/medichain-thegraph/stargazers
-[issues-shield]: https://img.shields.io/github/issues/sadityakumar9211/medichain-thegraph.svg?style=for-the-badge
-[issues-url]: https://github.com/sadityakumar9211/medichain-thegraph/issues
-[license-shield]: https://img.shields.io/github/license/sadityakumar9211/medichain-thegraph.svg?style=for-the-badge
-[license-url]: https://github.com/sadityakumar9211/medichain-thegraph/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/sadityakumar9211/thegraph-nft-marketplace.svg?style=for-the-badge
+[contributors-url]: https://github.com/sadityakumar9211/thegraph-nft-marketplace/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/sadityakumar9211/thegraph-nft-marketplace.svg?style=for-the-badge
+[forks-url]: https://github.com/sadityakumar9211/thegraph-nft-marketplace/network/members
+[stars-shield]: https://img.shields.io/github/stars/sadityakumar9211/thegraph-nft-marketplace.svg?style=for-the-badge
+[stars-url]: https://github.com/sadityakumar9211/thegraph-nft-marketplace/stargazers
+[issues-shield]: https://img.shields.io/github/issues/sadityakumar9211/thegraph-nft-marketplace.svg?style=for-the-badge
+[issues-url]: https://github.com/sadityakumar9211/thegraph-nft-marketplace/issues
+[license-shield]: https://img.shields.io/github/license/sadityakumar9211/thegraph-nft-marketplace.svg?style=for-the-badge
+[license-url]: https://github.com/sadityakumar9211/thegraph-nft-marketplace/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/saditya9211
 [product-screenshot]: https://user-images.githubusercontent.com/78147198/184471278-42e393d0-db94-4577-bdc9-328510b777c0.png
