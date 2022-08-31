@@ -27,7 +27,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/sadityakumar9211/thegraph-nft-marketplace">
-    <img src="logo.svg" alt="Logo" width="80" height="80">
+    <img width="54" alt="image" src="https://user-images.githubusercontent.com/78147198/187690391-be5b65b7-1bb6-44bb-982a-821782ae41c4.png">
+
   </a>
 
   <h2 align="center">NFT Marketplace</h2>
@@ -82,7 +83,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img width="1278" alt="image" src="https://user-images.githubusercontent.com/78147198/184471278-42e393d0-db94-4577-bdc9-328510b777c0.png">
+<img width="1234" alt="image" src="https://user-images.githubusercontent.com/78147198/187690506-9bd4c016-cb5e-457d-b03c-fb9573b405c6.png">
+
 
 **Blockchain** developed the idea of NFTs and introduced digital ownership of certain assets. This is because tokens are not exchangeable which makes it possible to establish property ownership in digital art. 
 
