@@ -39,7 +39,7 @@
     <br>
     <a href="https://github.com/sadityakumar9211/hardhat-nft-marketplace"><strong> <i>hardhat-nft-marketplace</i>: Hardhat Repository of NFT Marketplace Project»</strong></a>
     <br>
-    <a href="https://github.com/sadityakumar9211/medichain-nextjs"><strong> <i>nextjs-nft-marketplace</i>: The Next.js Repository of NFT Marketplace Project»</strong></a>
+    <a href="https://github.com/sadityakumar9211/nextjs-nft-marketplace"><strong> <i>nextjs-nft-marketplace</i>: The Next.js Repository of NFT Marketplace Project»</strong></a>
     <br>
     <br />
     <br />
