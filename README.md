@@ -176,7 +176,7 @@ graph deploy --studio nft-marketplace -l VERSION_NUMBER_HERE
 ```
 yarn dev
 ```
-
+**Note:** If you locally want to run this repository, you have to follow the **Quickstart** and **Deployment** sections of all three repositories of this project. Also make sure that all three repositories are in the same directory when you clone them.  
 
 ### Optional Gitpod
 
@@ -191,7 +191,7 @@ If you can't or don't want to run and install locally, you can work with this re
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. For detailed information on contributions see [this](https://github.com/sadityakumar9211/thegraph-nft-marketplace/blob/main/CONTRIBUTING.md). 
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
